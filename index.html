@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!--Font Family  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,800&family=Foldit&family=Lato:ital,wght@0,700;1,400&family=Playfair+Display:ital,wght@1,900&family=Vina+Sans&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img id="ethos-logo" class="ethos-logo" src="./images/download.png" alt="">
+            <img class="ethos-logo" src="./images/ethos-logo.svg" alt="">
+            <div class="toggle-btn" onclick="myFunction();">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="nav">
+                <ul>
+                    <li class="links"><i class="fa fa-home">&nbsp;&nbsp;</i>HOME</li>
+                    <li class="links"><i class="fa fa-shopping-bag">&nbsp;&nbsp;</i><label for="brand">BRAND :</label>
+    
+                            <select name="Brand" id="Select-brand">
+                                <option value="ROLEX">ROLEX</option>
+                                <option value="BALMAIN">BALMAIN</option>
+                                <option value="ANGELUS">ANGELUS</option>
+                                <option value="audi">CARL F. BUCHERER WATCHES</option>
+                            </select></li>
+                    <li class="links"><i class="fa fa-shopping-cart">&nbsp;&nbsp;</i>CART</li>
+                    <li class="links"><i class="fa fa-image">&nbsp;&nbsp;</i>Gallery</li>
+                    <li class="links"><i class="fa fa-sign-out">&nbsp;&nbsp;</i> SIGN OUT</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <article>
+        <Section class="Section-latest-articles" id="home">
+            <div class="WAR-head ">
+                <h1  class="container-text" class="H-side" >WHO ARE US ?</h1>
+                <div>
+                    <p id="War-p-head" style=" color:  rgb(235, 228, 219); font-size: 25pxx;">
+                        With more than 50 stores in India and over 50 premium luxury Watch brands, Ethos Watches is
+                        India’s
+                        largest chain of luxury watch boutiques. We take pride in helping our customers choose the
+                        perfect watch
+                        for themselves or their loved ones, while protecting them from rampant malpractices in <br>India
+                        such as
+                        smuggled, fake, and refurbished Watches.
+                    </p>
+                    <hr>
+                </div>
+
+                <h1 style="color:rgb(15, 11, 6);">LATEST ARTICLES</h1>
+            </div>
+            <div class="CART-latest-article">
+                <div class="flex_container">
+                    <div class="flex-items">
+                        <img class="img-c-lA" src="./images/cartLR1.webp" alt="">
+                        <button class="button-LA">Q & A</button>
+                        <h1 class="cla-h">On Complications, Collections, Accolades <br>And More—In Conversation With H.
+                            Moser’s
+                            CEO+</h1>
+                        <p class="cla-p">
+                            What are the two new 2023 Vantablack Endeavours all about?<br> We have two main
+                            novelties which are a part of the Endeavour collection, in rose gold.
+                        </p>
+                        <hr>
+                        <p>November 27, 2023</p>
+                    </div>
+                    <div class="flex-items">
+                        <img class="img-c-lA" src="./images/cartLR2.webp" alt="">
+                        <button class="button-LA">FEATURE</button>
+                        <h1 class="cla-h">How Nivada Grenchen Made A Resilient <br>Comeback By Reissuing Their Top
+                            Watches
+                        </h1>
+                        <p class="cla-p">
+
+                            What are the two new 2023 Vantablack Endeavours <br>all about? We have two main
+                            novelties which
+                            are a part of the Endeavour collection, in rose gold.
+
+                        </p>
+                        <hr>
+                        <p>November 27, 2023</p>
+
+                    </div>
+                    <!-- <div class="flex-items">
+                        <img class="img-c-lA" src="./images/cartLR3.webp" alt="">
+                        <button class="button-LA">SPOTLIGHT</button>
+                        <h1 class="cla-h">Celebrity Watch: Brand <br>At The Planet Omega Exhibition
+                        </h1>
+                        <p class="cla-p">
+
+                            What are the two new 2023 Vantablack Endeavours <br>all about? We have two main
+                            novelties which
+                            are a part of the Endeavour collection, in rose gold.
+
+                        </p>
+                        <hr>
+                        <p>November 24, 2023</p>
+                    </div> -->
+                </div>
+            </div>
+        </Section>
+        <!-- <hr> -->
+        
+        <!-- FEATURED WATCHES -->
+        <section class="section-feacherd-watches">
+            <div class="header-feacherd-watches">
+                <h1  class="H-side Font-subhead"><em>FEATURED WATCHES</em></h1>
+            </div>
+            <div class="CART-feacherd-watches">
+                <div class="flex_container">
+                    <div class="flex_container">
+                        <div class="flex-items">
+                            <img class="img-c-lA img-c-wh" src="./images/FW7.webp" alt="">
+                            <h1>BOVET FLEURIER</h1>
+                            <p>₹ 85,70,000</p>
+                        </div>
+                        <div class="flex-items">
+                            <img class="img-c-lA img-c-wh" src="./images/WFC.webp" alt="">
+                            <h1>BVLGARI OCTO</h1>
+                            <p>₹ 6,72,000</p>
+                        </div>
+                    </div>
+                    <div class="flex_container">
+                        <div class="flex-items">
+                            <img class="img-c-lA img-c-wh" src="./images/FWB.webp" alt="">
+                            <h1> COSMIC ART
+                            </h1>
+                            <p>₹ 6,84,000</p>
+                        </div>
+                        <div class="flex-items">
+                            <img class="img-c-lA img-c-wh" src="./images/FWA.webp" alt="">
+
+                            <!-- <img class="img-c-lA img-c-wh" src="./images/FWB.webp" alt=""> -->
+                            <h1>GIRARD-PERREGAUX
+                            </h1>
+                            <p>₹ 29,80,000</p>
+                        </div>
+                        
+                    </div>
+                    <div class="flex_container">
+                        <div class="flex-items">
+                            <img class="img-c-lA img-c-wh" src="./images/FW2.webp" alt="">
+                            <h1>BVLGARI OCTO</h1>
+                            <p>₹ 47,30,000</p>
+                        </div>
+                        <div class="flex-items">
+                            <img class="img-c-lA img-c-wh" src="./images/FW5.webp" alt="">
+                            <h1>FAVRE LEUBA</h1>
+                            <p>₹ 3,01,000</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- <div class="flex_container">
+                    <div class="flex_container">
+                        <div class="flex-items">
+                            <img class="img-c-lA img-c-wh" src="./images/FW7.webp" alt="">
+                            <h1>ETERNA <br>
+                                KONTIKI</h1>
+                            <p>₹ 1,00,000</p>
+                        </div>
+                        <div class="flex-items">
+                            <img class="img-c-lA img-c-wh" src="./images/FW8.webp" alt="">
+                            <h1>BVLGARI OCTO</h1>
+                            <p>₹ 6,72,000</p>
+                        </div>
+                    </div>
+                    <div class="flex_container">
+                        <div class="flex-items">
+                            <img class="img-c-lA img-c-wh" src="./images/FW9.webp" alt="">
+                            <h1>ARNOLD & SON <br>
+                                LUNA MAGNA
+                            </h1>
+                            <p>₹ 6,84,000</p>
+                        </div>
+                        <div class="flex-items">
+                            <img class="img-c-lA img-c-wh" src="./images/FW10.webp" alt="">
+                            <h1>LOUIS MOINET <br>
+                                COSMIC ART
+                            </h1>
+                            <p>₹ 27,60,000</p>
+                        </div>
+                    </div>
+                    <div class="flex_container">
+                        <div class="flex-items">
+                            <img class="img-c-lA img-c-wh" src="./images/FW12.webp" alt="">
+                            <h1 style="z-index: -1;">LOUIS MOINET <br>
+                                COSMIC ART
+                            </h1>
+                            <p>₹ 19,30,000</p>
+                        </div>
+                        <div class="flex-items">
+                            <img class="img-c-lA img-c-wh" src="./images/FW13.webp" alt="">
+                            <h1>FAVRE LEUBA <br>
+                                RAIDER SEA SKY
+                            </h1>
+                            <p>₹ 3,01,000</p>
+                        </div>
+                    </div>
+                    
+                </div> -->
+            </div>
+        </section>
+
+        <!-- BRANDS -->
+        <Section class="Section-latest-articles">
+            <div class="WAR">
+                <h1 class="container-text" class="H-side">WHO
+                    WE
+                    REPRESENT</h1>
+                <div>
+                    <p id="War-p" style=" color:  rgb(235, 228, 219); font-size: 25pxx;">
+                        LUXURY BRANDS AVAILABLE AT ETHOS
+                    </p>
+                    <hr>
+                </div>
+            </div>
+            <div class="container-brand">
+                <div class="row-brand-side1">
+                    <div class="img-brands">
+                        <img class="img_block" src="./images/rolex.png" alt="">
+                    </div>
+                    <div class="brands-disc-side1">
+                        <h1 class="brand-h">ROLEX </h1>
+
+                        <p class="brand-p-side1">Rolex watches are crafted from the finest raw materials and assembled
+                            with scrupulous attention to detail. Every component is designed, developed and produced to
+                            the
+                            most exacting standards.Rolex only uses the highest quality materials in their watches,
+                            including
+                            904L stainless steel, which is more corrosion-resistant than other types of steel. They also
+                            use top-grade diamonds and other precious stones. They are incredibly well-made. Rolex
+                            watches are assembled by hand with meticulous attention to detail.</p>
+                    </div>
+                </div>
+                <div class="row-brand-side1">
+                    <div class="brands-disc-side2">
+                        <h1 class="brand-h">BALMAIN</h1>
+                        <p class="brand-p">Balmain is a French luxury fashion house founded by Pierre Balmain in 1945 so
+                            the watches crafted by the brand are also luxury watches. Is Balmain a Swiss watch? Balmain
+                            watches are based in Switzerland's Saint Imier in Bernese Jura and exclusively crafted by
+                            the Swatch group.</p>
+                    </div>
+                    <div class="img-brands-side2">
+                        <img class="brand-img img_block" src="./images/BALMAIN WATCHES.png" alt="">
+                    </div>
+                </div>
+                <div class="row-brand-side1">
+                    <div class="img-brands">
+                        <img class="brand-img img_block" src="./images/Angelus.png" alt="">
+                    </div>
+                    <div class="brands-disc-side1">
+                        <h1 class="brand-h">ANGELUS</h1>
+                        <p class="brand-p-side1">Founded in 1891 in Switzerland, Angelus has been one of the most
+                            influential horological manufactures
+                            of the
+                            last century. Watchmaking connoisseurs universally hailed Angelus' pioneering, in-house
+                            developed movements and timepieces, which continue to be coveted by collectors all over the
+                            world.</p>
+                    </div>
+                </div>
+                <div class="row-brand-side1">
+                    <div class="brands-disc-side2">
+                        <h1 class="brand-h">CARL F. BUCHERER WATCHES</h1>
+                        <p class="brand-p">Carl F. Bucherer is an exceedingly famous Swiss watch brand that was
+                            established almost 125 years ago in Lucerne. Carl F. Bucherer with their acumen quickly
+                            gained recognition for its quality and originality.the company was wholly owned by the
+                            Bucherer family, making it one of the oldest luxury Swiss watchmakers continuously held by
+                            the founding family. The company was run by the original family's third generation, with
+                            Jörg G. Bucherer serving as chairman of the board.</p>
+                    </div>
+                    <div class="img-brands-side2">
+                        <img class="brand-img img_block" src="./images/Carl F.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </Section>
+        <!-- <hr> -->
+
+        <!-- GALLERY -->
+        <section class="section-feacherd-watches " style="background-image:url(../images/gallerybg.webp) ;">
+            <div class="header-feacherd-watches">
+                <h1 class="H-side Font-subhead"><em>GALLERY</em></h1>
+            </div>
+            <div class="continer-gallery">
+
+                <div class="col-gallery">
+                    <img src="./images/gallery 1.webp" alt="">
+                    <!-- <img width="500px" src="./images/gallery img1.webp" alt=""> -->
+                </div>
+                
+                
+                
+                <div class="col-gallery">
+                    <div class="col-col-gallery">
+                        <img src="./images/galaxy green gif.gif" alt="">
+                    </div>
+                    <div class="col-col-gallery">
+                        <img src="./images/gallery 3.webp" alt="">
+                    </div>
+                    <!-- <div class="col-col-gallery">
+                        <img src="./images/gallery 4.webp" alt="">
+                    </div> -->
+                </div>
+                <div class="col-gallery">
+                    <div class="col-col-gallery">
+                        <img src="./images/gallery 2.webp" alt="">
+                    </div>
+                    <div class="col-col-gallery">
+                        <img src="./images/gallary_gif.gif" alt="">
+                    </div>
+                    <!-- <div class="col-col-gallery">
+                        <img src="./images/gallery 4.webp" alt="">
+                    </div> -->
+                </div>
+                <div class="col-gallery">
+                    <div class="col-col-gallery">
+                        <img src="./images/galaxy no gif.gif" alt="">
+                    </div>
+                    
+                    <div class="col-col-gallery">
+                        <img src="./images/gallery 4.webp" alt="">
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+        </section>
+
+        <!-- <section id="slideshow">
+            <div class="entire-content">
+                <div class="content-carrousel">
+                    <figure class="shadow"><img src="./images/FW1.webp" alt="Alan Walker - The Spectre" /></figure>
+                    <figure class="shadow"><img src="./images/My_RS_Chrono_Watch_800x_1_9c6fbe39-0c36-49ae-a613-ab0d9789f985.webp" alt="Alan Walker - Alone" /></figure>
+                    <figure class="shadow"><img src="./images/gallery 3.webp" alt="OM TELOLET OM - ALAN WALKER" />
+                    </figure>
+
+                    <figure class="shadow"><img src="./images/gallery 2.webp" /></figure>
+                    <figure class="shadow"><img src="./images/Favre-Leuba-Raider-Harpoon-white-chapter-ring-single-hand-helium-valve-gif.gif"
+                        alt="sing me to sleep GIF by Alan Walker Official" /></figure>
+            
+                    <figure class="shadow"><img src="./images/gallery 4.webp" /></figure>
+                    <figure class="shadow"><img src="./images/gallery 5.webp"
+                            alt="The Drop Dancing GIF by Alan Walker Official" /></figure>
+                    <figure class="shadow"><img src="./images/watch video.webp"
+                            alt="alone GIF by Alan Walker Official" /></figure>
+                    <figure class="shadow"><img
+                            src="https://tocgwatches.com/cdn/shop/collections/My_RS_Chrono_Watch_800x_1_9c6fbe39-0c36-49ae-a613-ab0d9789f985.gif?v=1672558937"
+                            alt="alone GIF by Alan Walker Official" /></figure>
+                    
+                    <figure class="shadow"><img src="./images/gallery 4.webp" /></figure>
+                    <figure class="shadow"><img src="./images/gallery 5.webp"
+                                    alt="The Drop Dancing GIF by Alan Walker Official" /></figure>
+                    <figure class="shadow"><img src="./images/watch video.webp"
+                                    alt="alone GIF by Alan Walker Official" /></figure>
+                </div>
+            </div>
+        </section> -->
+
+
+
+        <footer>
+            <div id="footer">
+                <div class="col-footer" class="logo-block">
+                    <img id="footer-logo" src="./images/download.png" alt="">
+                </div>
+                <div class="col-footer">
+                    <h3><u>REACH US</u></h3><br>
+                    <p class="pp"><i class="fa fa-instagram" aria-hidden="true">&nbsp;&nbsp;</i> Instagram &nbsp; </p>
+                    <p class="pp"><i class="fa fa-facebook" aria-hidden="true">&nbsp;&nbsp;</i> Facebook &nbsp; </p>
+                    <p class="pp"><i class="fa fa-twitter" aria-hidden="true">&nbsp;&nbsp;</i> Twitter &nbsp; </p>
+                </div>
+                <div class="col-footer">
+                    <h3><u>SUBSCRIBE TO OUR NEWSLETTER</u></h3>
+                    <p>Be the first to hear about new arrivals, special offers,<br> and invitations to private events</p>
+                </div>
+                <div class="col-footer contect_for">
+                    <h3><u>CONTACT US</u></h3>
+                    <br><br>
+                    <div>
+                        <form class="form-style">
+                            <div>
+                                <label for="username">Your Name:-</label>
+                                <input id="username" type="text" placeholder="Enter you'r Username">
+                            </div>
+                            <br>
+                            <div>
+                                <label for="email">Your E-Mail:-</label>
+                                <input id="email" type="email" placeholder="Enter you'r Email">
+                            </div>
+
+                            <br>
+                            <div>
+                                <label for="address">Query:-</label>
+                                <textarea name="" aria-placeholder="Your address" id="address" cols="30" rows="5"
+                                    placeholder=""></textarea>
+                            </div>
+
+                            <br>
+                            <div>
+                                <button class="button-LA" type="submit">Submit</button>
+                            </div>
+
+
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+            <p style="font-size: 13px;">© 2023 Ethos Watch Boutiques. All Rights Reserved.</p>
+        </footer>
+    </article>
+</body>
+<script type="text/javascript">
+function myFunction() {
+    var navDiv = document.getElementById('nav');
+    navDiv.classList.toggle('show');
+}
+
+</script>
+
+</html>
